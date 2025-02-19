@@ -1,5 +1,5 @@
+on: [push]
 jobs:
-  on: [push]
     mail_on_push:
       runs-on: ubuntu-latest
       steps:
